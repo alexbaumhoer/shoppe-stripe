@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.post_install_message = 'Since v1.3.0, the params for exp_month & exp_year have changed - https://git.io/vgl3c'
 
   s.add_dependency 'shoppe', '> 0.0.9', '< 2'
-  s.add_dependency 'stripe', '~> 1.8.7'
+  s.add_dependency 'stripe', '~> 1.58.0'
   s.add_dependency 'coffee-rails', '~> 4'
 end
